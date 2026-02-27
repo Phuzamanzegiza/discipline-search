@@ -425,3 +425,50 @@ body {
   .item-badge { display: none; }
   .grid-view { grid-template-columns: 1fr; }
 }
+/* ── Additions for updated search features ────────────────────── */
+/* Append these to your existing App.css */
+
+mark.hl {
+  background: #fef08a;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.pill-count {
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 99px;
+  padding: 1px 6px;
+  margin-left: 2px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.pill:not(.pill-active) .pill-count {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.pill-empty {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.clear-btn {
+  margin-top: 12px;
+  padding: 8px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: white;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.clear-btn:hover {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}

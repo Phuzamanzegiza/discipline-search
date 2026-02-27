@@ -1,124 +1,2270 @@
 [
-  { "code": "004", "sub": "000", "name": "Chiropractors", "category": "Allied Health" },
-  { "code": "007", "sub": "000", "name": "Namibian Practitioners Only (Not recognised by HPCSA)", "category": "International" },
-  { "code": "007", "sub": "001", "name": "Namibian Practitioners Only - Acupuncturist", "category": "International" },
-  { "code": "007", "sub": "002", "name": "Namibian Practitioners Only - Reflexologists", "category": "International" },
-  { "code": "007", "sub": "003", "name": "Namibian Practitioners Only - Forensic", "category": "International" },
-  { "code": "008", "sub": "000", "name": "Homeopaths", "category": "Allied Health" },
-  { "code": "009", "sub": "000", "name": "Ambulance Services - Advanced", "category": "Emergency Services" },
-  { "code": "010", "sub": "000", "name": "Anaesthetists", "category": "Medical Specialists" },
-  { "code": "011", "sub": "000", "name": "Ambulance Services - Intermediate", "category": "Emergency Services" },
-  { "code": "012", "sub": "000", "name": "Dermatology", "category": "Medical Specialists" },
-  { "code": "013", "sub": "000", "name": "Ambulance Services - Basic", "category": "Emergency Services" },
-  { "code": "014", "sub": "000", "name": "General Medical Practice", "category": "General Practice" },
-  { "code": "016", "sub": "000", "name": "Obstetrics and Gynaecology", "category": "Medical Specialists" },
-  { "code": "017", "sub": "000", "name": "Pulmonology", "category": "Medical Specialists" },
-  { "code": "018", "sub": "000", "name": "Specialist Physician / Internal Medicine / Diabetes / Rheumatology / Nephrology / Endocrinology", "category": "Medical Specialists" },
-  { "code": "018", "sub": "001", "name": "Specialist Physician - Clinical Haematology", "category": "Medical Specialists" },
-  { "code": "019", "sub": "000", "name": "Gastroenterology", "category": "Medical Specialists" },
-  { "code": "020", "sub": "000", "name": "Neurology", "category": "Medical Specialists" },
-  { "code": "021", "sub": "000", "name": "Cardiology", "category": "Medical Specialists" },
-  { "code": "022", "sub": "000", "name": "Psychiatry", "category": "Mental Health" },
-  { "code": "023", "sub": "000", "name": "Medical Oncology", "category": "Medical Specialists" },
-  { "code": "024", "sub": "000", "name": "Neurosurgery", "category": "Surgical Specialists" },
-  { "code": "025", "sub": "000", "name": "Nuclear Medicine", "category": "Medical Specialists" },
-  { "code": "026", "sub": "000", "name": "Ophthalmology", "category": "Medical Specialists" },
-  { "code": "027", "sub": "000", "name": "Clinical Haematology", "category": "Medical Specialists" },
-  { "code": "028", "sub": "000", "name": "Orthopaedics", "category": "Surgical Specialists" },
-  { "code": "030", "sub": "000", "name": "Otorhinolaryngology", "category": "Surgical Specialists" },
-  { "code": "032", "sub": "000", "name": "Paediatrics", "category": "Medical Specialists" },
-  { "code": "033", "sub": "000", "name": "Paediatric Cardiology", "category": "Medical Specialists" },
-  { "code": "034", "sub": "000", "name": "Physical Medicine", "category": "Medical Specialists" },
-  { "code": "036", "sub": "000", "name": "Plastic and Reconstructive Surgery", "category": "Surgical Specialists" },
-  { "code": "038", "sub": "000", "name": "Diagnostic Radiology", "category": "Radiology & Imaging" },
-  { "code": "039", "sub": "000", "name": "Radiography", "category": "Radiology & Imaging" },
-  { "code": "040", "sub": "000", "name": "Radiotherapy / Nuclear Medicine / Oncologist", "category": "Radiology & Imaging" },
-  { "code": "042", "sub": "000", "name": "Surgery / Paediatric Surgery", "category": "Surgical Specialists" },
-  { "code": "044", "sub": "000", "name": "Cardio Thoracic Surgery", "category": "Surgical Specialists" },
-  { "code": "046", "sub": "000", "name": "Urology", "category": "Surgical Specialists" },
-  { "code": "047", "sub": "000", "name": "Drug & Alcohol Rehab - Department of Health", "category": "Rehabilitation" },
-  { "code": "047", "sub": "001", "name": "Drug & Alcohol Rehab - Welfare", "category": "Rehabilitation" },
-  { "code": "049", "sub": "000", "name": "Step Down Facilities", "category": "Facilities" },
-  { "code": "049", "sub": "001", "name": "Step Down Facilities - Acute", "category": "Facilities" },
-  { "code": "049", "sub": "002", "name": "Step Down Facilities - Chronic", "category": "Facilities" },
-  { "code": "049", "sub": "003", "name": "Step Down Facilities - Physical Rehab", "category": "Facilities" },
-  { "code": "050", "sub": "000", "name": "Group Practices", "category": "Facilities" },
-  { "code": "050", "sub": "009", "name": "Group Practice - Primary Care", "category": "Facilities" },
-  { "code": "050", "sub": "010", "name": "Delayed Children Development Clinic - Welfare & DoH", "category": "Facilities" },
-  { "code": "051", "sub": "000", "name": "Group Practices / Hospitals", "category": "Facilities" },
-  { "code": "052", "sub": "000", "name": "Pathology", "category": "Pathology & Laboratory" },
-  { "code": "054", "sub": "000", "name": "General Dental Practice", "category": "Dental" },
-  { "code": "055", "sub": "000", "name": "Mental Health Institutions", "category": "Mental Health" },
-  { "code": "056", "sub": "000", "name": "Provincial Hospitals", "category": "Hospitals" },
-  { "code": "056", "sub": "009", "name": "Provincial Hospitals - Primary Care", "category": "Hospitals" },
-  { "code": "057", "sub": "000", "name": "Private Hospitals ('A' Status)", "category": "Hospitals" },
-  { "code": "057", "sub": "001", "name": "Private Hospitals ('A' Status) - +ICU +Theatre <100 beds", "category": "Hospitals" },
-  { "code": "057", "sub": "002", "name": "Private Hospitals ('A' Status) - -ICU +Theatre", "category": "Hospitals" },
-  { "code": "057", "sub": "003", "name": "Private Hospitals ('A' Status) - +ICU -Theatre", "category": "Hospitals" },
-  { "code": "057", "sub": "004", "name": "Private Hospitals ('A' Status) - -ICU -Theatre", "category": "Hospitals" },
-  { "code": "057", "sub": "005", "name": "Private Hospitals ('A' Status) - +Theatre Maternity Only", "category": "Hospitals" },
-  { "code": "057", "sub": "006", "name": "Private Hospitals ('A' Status) - -Theatre Maternity Only", "category": "Hospitals" },
-  { "code": "057", "sub": "100", "name": "Private Hospitals ('A' Status) - Mine Hospitals", "category": "Hospitals" },
-  { "code": "057", "sub": "200", "name": "Private Hospitals ('A' Status) - State Subsidised", "category": "Hospitals" },
-  { "code": "058", "sub": "000", "name": "Private Hospitals ('B' Status)", "category": "Hospitals" },
-  { "code": "059", "sub": "000", "name": "Private Rehab Hospital (Acute)", "category": "Hospitals" },
-  { "code": "060", "sub": "000", "name": "Pharmacies", "category": "Pharmacy" },
-  { "code": "061", "sub": "000", "name": "Pharmacotherapist", "category": "Pharmacy" },
-  { "code": "062", "sub": "000", "name": "Maxillo-facial and Oral Surgery", "category": "Dental" },
-  { "code": "064", "sub": "000", "name": "Orthodontics", "category": "Dental" },
-  { "code": "066", "sub": "000", "name": "Occupational Therapy", "category": "Allied Health" },
-  { "code": "067", "sub": "000", "name": "Art Therapists", "category": "Allied Health" },
-  { "code": "068", "sub": "000", "name": "Podiatry", "category": "Allied Health" },
-  { "code": "069", "sub": "000", "name": "Medical Scientist - Clinical Biochemist", "category": "Medical Scientists" },
-  { "code": "069", "sub": "001", "name": "Medical Scientist - Genetic Counsellor", "category": "Medical Scientists" },
-  { "code": "069", "sub": "002", "name": "Medical Scientist - Medical Biological Scientist", "category": "Medical Scientists" },
-  { "code": "069", "sub": "003", "name": "Medical Scientist - Medical Physicist", "category": "Medical Scientists" },
-  { "code": "070", "sub": "000", "name": "Optometrists", "category": "Allied Health" },
-  { "code": "071", "sub": "000", "name": "Optical Dispensers", "category": "Allied Health" },
-  { "code": "072", "sub": "000", "name": "Physiotherapists", "category": "Allied Health" },
-  { "code": "073", "sub": "000", "name": "Masseurs", "category": "Allied Health" },
-  { "code": "074", "sub": "000", "name": "Orthoptists", "category": "Allied Health" },
-  { "code": "075", "sub": "000", "name": "Clinical Technology - Cardiology", "category": "Clinical Technology" },
-  { "code": "075", "sub": "001", "name": "Clinical Technology - Cardio-Vascular", "category": "Clinical Technology" },
-  { "code": "075", "sub": "002", "name": "Clinical Technology - Pulmonology / Nephrology", "category": "Clinical Technology" },
-  { "code": "075", "sub": "004", "name": "Clinical Technology - Reproductive Biology", "category": "Clinical Technology" },
-  { "code": "075", "sub": "005", "name": "Medical Technology - Pathology", "category": "Clinical Technology" },
-  { "code": "075", "sub": "006", "name": "Clinical Technology - Neurophysiology", "category": "Clinical Technology" },
-  { "code": "075", "sub": "007", "name": "Clinical Technology - Critical Care", "category": "Clinical Technology" },
-  { "code": "075", "sub": "009", "name": "Biokinetics", "category": "Clinical Technology" },
-  { "code": "076", "sub": "000", "name": "Unattached Operating Theatres / Day Clinics", "category": "Facilities" },
-  { "code": "077", "sub": "000", "name": "Approved UOTU / Day Clinics", "category": "Facilities" },
-  { "code": "078", "sub": "000", "name": "Blood Transfusion Services", "category": "Clinical Services" },
-  { "code": "079", "sub": "000", "name": "Hospices", "category": "Facilities" },
-  { "code": "079", "sub": "001", "name": "Hospices - SA Cancer Associations", "category": "Facilities" },
-  { "code": "080", "sub": "000", "name": "Nursing Agencies / Home Care Services", "category": "Nursing" },
-  { "code": "082", "sub": "000", "name": "Speech Therapy / Audiology", "category": "Allied Health" },
-  { "code": "083", "sub": "000", "name": "Hearing Aid Acoustician", "category": "Allied Health" },
-  { "code": "084", "sub": "000", "name": "Dieticians", "category": "Allied Health" },
-  { "code": "086", "sub": "000", "name": "Psychologists", "category": "Mental Health" },
-  { "code": "087", "sub": "000", "name": "Orthotists & Prosthetists", "category": "Allied Health" },
-  { "code": "088", "sub": "000", "name": "Registered Nurses", "category": "Nursing" },
-  { "code": "088", "sub": "001", "name": "Registered Nurses - Midwife Only", "category": "Nursing" },
-  { "code": "088", "sub": "002", "name": "Registered Nurses - Psychiatric Only", "category": "Nursing" },
-  { "code": "088", "sub": "009", "name": "Registered Nurses - Primary Care", "category": "Nursing" },
-  { "code": "089", "sub": "000", "name": "Social Workers", "category": "Mental Health" },
-  { "code": "090", "sub": "000", "name": "Clinical Services", "category": "Clinical Services" },
-  { "code": "090", "sub": "001", "name": "Clinical Services - Oxygen Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "002", "name": "Clinical Services - Wheelchairs Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "003", "name": "Clinical Services - Ear Prosthetists Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "004", "name": "Clinical Services - Eye Prosthetists Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "005", "name": "Clinical Services - Breast Prosthetists Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "006", "name": "Clinical Services - Cardiac Prosthetists Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "007", "name": "Clinical Services - Stomal / Appliances Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "008", "name": "Clinical Services - Medical General Supplier", "category": "Clinical Services" },
-  { "code": "090", "sub": "009", "name": "Clinical Services - FAMSA (Family & Marriage Counselling)", "category": "Clinical Services" },
-  { "code": "090", "sub": "010", "name": "Clinical Services - Employer Primary Care Facilities (Namibia Only)", "category": "Clinical Services" },
-  { "code": "091", "sub": "000", "name": "Ambulance Services - Other", "category": "Emergency Services" },
-  { "code": "092", "sub": "000", "name": "Periodontics", "category": "Dental" },
-  { "code": "093", "sub": "000", "name": "Dental Technician", "category": "Dental" },
-  { "code": "094", "sub": "000", "name": "Prosthodontics", "category": "Dental" },
-  { "code": "095", "sub": "000", "name": "Dental Therapy", "category": "Dental" },
-  { "code": "096", "sub": "000", "name": "Community Dentistry", "category": "Dental" },
-  { "code": "097", "sub": "000", "name": "Community Health", "category": "General Practice" },
-  { "code": "098", "sub": "000", "name": "Oral Pathology", "category": "Dental" }
+  {
+    "code": "002",
+    "sub": "000",
+    "name": "Nutritionist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "004",
+    "sub": "000",
+    "name": "Chiropractors",
+    "category": "Allied Health"
+  },
+  {
+    "code": "007",
+    "sub": "000",
+    "name": "Namibian Practitioners Only (Not recognized by (HPCSA)",
+    "category": "General Practice"
+  },
+  {
+    "code": "007",
+    "sub": "001",
+    "name": "Namibian Practitioners Only (Not recognized by (HPCSA) - Acupuncturist",
+    "category": "General Practice"
+  },
+  {
+    "code": "007",
+    "sub": "002",
+    "name": "Namibian Practitioners Only (Not recognized by (HPCSA) - Reflexologists",
+    "category": "General Practice"
+  },
+  {
+    "code": "007",
+    "sub": "003",
+    "name": "Namibian Practitioners Only (Not recognized by (HPCSA) - Forensic",
+    "category": "General Practice"
+  },
+  {
+    "code": "007",
+    "sub": "999",
+    "name": "Namibian Practitioners Only (Not recognized by (HPCSA) - Multi Sub-Discipline",
+    "category": "General Practice"
+  },
+  {
+    "code": "008",
+    "sub": "000",
+    "name": "Homeopathy",
+    "category": "Allied Health"
+  },
+  {
+    "code": "009",
+    "sub": "001",
+    "name": "Ambulance Services - Basic Life Support Service",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "002",
+    "name": "Ambulance Services - Intermediate Life Support Service",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "003",
+    "name": "Ambulance Services - Advance Life Support Service",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "004",
+    "name": "Ambulance Services - Provincial Ambulance Service",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "005",
+    "name": "Ambulance Services - Emergency Care Support Services (Namibia only)",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "006",
+    "name": "Ambulance Services - Public - Public",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "007",
+    "name": "Ambulance Services - Events",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "008",
+    "name": "Ambulance Services - Aero Medical",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "101",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Alfred Nzo",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "102",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Amatole",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "103",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Buffalo City Metropolitan Municipality",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "104",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Chris Hani",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "105",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Joe Gqabi",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "106",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Nelson Mandela Bay Metropolitan Municipality",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "107",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape -  OR Tambo",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "108",
+    "name": "Ambulance Services - Provincial Ambulance - Eastern Cape - Sarah Baartman",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "009",
+    "sub": "999",
+    "name": "Ambulance Services - Multi Sub-Discipline",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "010",
+    "sub": "000",
+    "name": "Anaesthetists",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "010",
+    "sub": "001",
+    "name": "Anaesthetists - Pain Medicine (Zimbabwe)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "010",
+    "sub": "002",
+    "name": "Anaesthetists - Critical Care",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "010",
+    "sub": "200",
+    "name": "Anaesthetists - Locum (Namibia Only)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "010",
+    "sub": "300",
+    "name": "Anaesthetists - Limited Private Practice (Namibia Only)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "010",
+    "sub": "999",
+    "name": "Anaesthetists - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "012",
+    "sub": "000",
+    "name": "Dermatology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "012",
+    "sub": "999",
+    "name": "Dermatology - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "014",
+    "sub": "000",
+    "name": "General Medical Practice",
+    "category": "General Practice"
+  },
+  {
+    "code": "014",
+    "sub": "003",
+    "name": "General Medical Practice - Point of Care Laboratory (Namibia Only)",
+    "category": "General Practice"
+  },
+  {
+    "code": "014",
+    "sub": "200",
+    "name": "General Medical Practice - Locum (Namibia Only)",
+    "category": "General Practice"
+  },
+  {
+    "code": "014",
+    "sub": "300",
+    "name": "General Medical Practice - Limited Private Practice (Namibia Only)",
+    "category": "General Practice"
+  },
+  {
+    "code": "014",
+    "sub": "999",
+    "name": "General Medical Practice - Multi Sub-Discipline",
+    "category": "General Practice"
+  },
+  {
+    "code": "015",
+    "sub": "000",
+    "name": "Specialist Family Medicine",
+    "category": "General Practice"
+  },
+  {
+    "code": "015",
+    "sub": "200",
+    "name": "Specialist Family Medicine - Locum (Namibia Only)",
+    "category": "General Practice"
+  },
+  {
+    "code": "016",
+    "sub": "000",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "001",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Critical Care",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "002",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Gynaecological Oncology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "003",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Medical Genetics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "004",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Maternal and Foetal Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "005",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Reproductive Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "006",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Infectious Diseases",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "007",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Urogynaecology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "016",
+    "sub": "999",
+    "name": "Independent Practice Specialist Obstetrics and Gynaecology - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "000",
+    "name": "Independent Practice Specialist Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "001",
+    "name": "Independent Practice Specialist Medicine - Clinical Haematology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "002",
+    "name": "Independent Practice Specialist Medicine - Nephrology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "003",
+    "name": "Independent Practice Specialist Medicine - Cardiology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "004",
+    "name": "Independent Practice Specialist Medicine - Endocrinology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "005",
+    "name": "Independent Practice Specialist Medicine - Pulmonology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "006",
+    "name": "Independent Practice Specialist Medicine - Critical Care",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "007",
+    "name": "Independent Practice Specialist Medicine - Geriatric Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "008",
+    "name": "Independent Practice Specialist Medicine - Medical Genetics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "009",
+    "name": "Independent Practice Specialist Medicine - Infectious Diseases",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "010",
+    "name": "Independent Practice Specialist Medicine - Gastroenterology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "011",
+    "name": "Independent Practice Specialist Medicine - Medical Oncology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "012",
+    "name": "Independent Practice Specialist Medicine - Rheumatology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "200",
+    "name": "Independent Practice Specialist Medicine - Locum (Namibia Only)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "202",
+    "name": "Independent Practice Subspecialist Medicine - Nephrology Locum (Namibia Only)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "018",
+    "sub": "999",
+    "name": "Independent Practice Specialist Medicine - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "020",
+    "sub": "000",
+    "name": "Neurology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "021",
+    "sub": "000",
+    "name": "Cardiology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "022",
+    "sub": "000",
+    "name": "Psychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "001",
+    "name": "Psychiatry - Addiction Psychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "002",
+    "name": "Psychiatry - Consultation- Liaison Psychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "003",
+    "name": "Psychiatry - Neuropsychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "004",
+    "name": "Psychiatry - Forensic Psychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "005",
+    "name": "Psychiatry - Child Psychiatry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "022",
+    "sub": "999",
+    "name": "Psychiatry - Multi Sub-Discipline",
+    "category": "Mental Health"
+  },
+  {
+    "code": "024",
+    "sub": "000",
+    "name": "Independent Practice Specialist Neurosurgery",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "024",
+    "sub": "001",
+    "name": "Independent Practice Specialist Neurosurgery - Critical Care",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "024",
+    "sub": "999",
+    "name": "Independent Practice Specialist Neurosurgery - Multi Sub-Discipline",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "025",
+    "sub": "000",
+    "name": "Nuclear Medicine",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "025",
+    "sub": "999",
+    "name": "Nuclear Medicine - Multi Sub-Discipline",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "026",
+    "sub": "000",
+    "name": "Ophthalmology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "027",
+    "sub": "000",
+    "name": "Clinical Haematology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "027",
+    "sub": "001",
+    "name": "Clinical Haematology - Pathology (Haematology)",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "027",
+    "sub": "002",
+    "name": "Clinical Haematology - Paediatrics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "027",
+    "sub": "003",
+    "name": "Clinical Haematology - Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "027",
+    "sub": "999",
+    "name": "Clinical Haematology - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "028",
+    "sub": "000",
+    "name": "Orthopaedics",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "028",
+    "sub": "999",
+    "name": "Orthopaedics - Multi Sub-Discipline",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "029",
+    "sub": "000",
+    "name": "Occupational Medicine Independent Practice Specialist",
+    "category": "General Practice"
+  },
+  {
+    "code": "030",
+    "sub": "000",
+    "name": "Otorhinolaryngology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "031",
+    "sub": "000",
+    "name": "Rheumatology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "031",
+    "sub": "999",
+    "name": "Rheumatology - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "000",
+    "name": "Paediatrics Independent Practice Specialist",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "001",
+    "name": "Paediatrics Independent Practice Specialist - Neurology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "002",
+    "name": "Paediatrics Independent Practice Specialist - Developmental Paediatrics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "003",
+    "name": "Paediatrics Independent Practice Specialist - Medical Oncology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "004",
+    "name": "Paediatrics Independent Practice Specialist - Infectious Diseases",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "005",
+    "name": "Paediatrics Independent Practice Specialist - Medical Genetics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "006",
+    "name": "Paediatrics Independent Practice Specialist - Endocrinology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "007",
+    "name": "Paediatrics Independent Practice Specialist - Gastroenterology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "008",
+    "name": "Paediatrics Independent Practice Specialist - Neonatology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "009",
+    "name": "Paediatrics Independent Practice Specialist - Pulmonology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "010",
+    "name": "Paediatrics Independent Practice Specialist - Rheumatology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "011",
+    "name": "Paediatrics Independent Practice Specialist - Nephrology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "012",
+    "name": "Paediatrics Independent Practice Specialist - Critical Care",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "013",
+    "name": "Paediatrics Independent Practice Specialist - Cardiology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "014",
+    "name": "Paediatrics Independent Practice Specialist - Clinical Haematology",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "015",
+    "name": "Paediatrics Independent Practice Specialist - Community Paediatrics",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "016",
+    "name": "Paediatrics Independent Practice Specialist - Paediatric Emergency Medicine",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "032",
+    "sub": "999",
+    "name": "Paediatrics Independent Practice Specialist - Multi Sub-Discipline",
+    "category": "Medical Specialists"
+  },
+  {
+    "code": "035",
+    "sub": "000",
+    "name": "Emergency Medicine Independent Practice Specialist",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "035",
+    "sub": "001",
+    "name": "Emergency Medicine Independent Practice Specialist - Paediatric Emergency Medicine",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "035",
+    "sub": "002",
+    "name": "Emergency Medicine Independent Practice Specialist - Critical Care",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "035",
+    "sub": "999",
+    "name": "Emergency Medicine Independent Practice Specialist - Multi Sub-Discipline",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "036",
+    "sub": "000",
+    "name": "Plastic and Reconstructive Surgery",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "037",
+    "sub": "000",
+    "name": "Medical technology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "001",
+    "name": "Medical technology - Blood Transfusion Technology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "002",
+    "name": "Medical technology - Cardiology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "003",
+    "name": "Medical technology - Chemical Pathology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "004",
+    "name": "Medical technology - Clinical Pathology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "005",
+    "name": "Medical technology - Cytotechnology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "006",
+    "name": "Medical technology - Forensic Pathology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "007",
+    "name": "Medical technology - Haematology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "008",
+    "name": "Medical technology - Histopathological Technique",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "009",
+    "name": "Medical technology - Lung Function",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "010",
+    "name": "Medical technology - Microbiology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "011",
+    "name": "Medical technology - Parasitology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "012",
+    "name": "Medical technology - Pharmacology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "013",
+    "name": "Medical technology - Virology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "014",
+    "name": "Medical technology - Immunology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "015",
+    "name": "Medical technology - Radio-Isotope Technology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "037",
+    "sub": "999",
+    "name": "Medical technology - Multi Sub-Discipline",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "038",
+    "sub": "000",
+    "name": "Diagnostic Radiology",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "038",
+    "sub": "999",
+    "name": "Diagnostic Radiology - Multi Sub-Discipline",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "000",
+    "name": "Radiography",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "001",
+    "name": "Radiography - Diagnosis",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "002",
+    "name": "Radiography - Therapy",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "003",
+    "name": "Radiography - Nuclear Medicine",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "004",
+    "name": "Radiography - Ultrasound",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "039",
+    "sub": "999",
+    "name": "Radiography - Multi Sub-Discipline",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "040",
+    "sub": "000",
+    "name": "Independent Practice Specialist Radiation Oncology",
+    "category": "Radiology & Imaging"
+  },
+  {
+    "code": "042",
+    "sub": "000",
+    "name": "Surgery Independent Practice Specialist",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "001",
+    "name": "Surgery Independent Practice Specialist - Vascular Surgery",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "002",
+    "name": "Surgery Independent Practice Specialist - Critical Care",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "003",
+    "name": "Surgery Independent Practice Specialist - Gastroenterology",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "005",
+    "name": "Surgery Independent Practice Specialist - Trauma Surgery",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "200",
+    "name": "Surgery Independent Practice Sub Specialist - Locum (Namibia Only)",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "042",
+    "sub": "999",
+    "name": "Surgery Independent Practice Specialist - Multi Sub-Discipline",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "044",
+    "sub": "000",
+    "name": "Cardio Thoracic Surgery",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "044",
+    "sub": "999",
+    "name": "Cardio Thoracic Surgery - Multi Sub-Discipline",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "046",
+    "sub": "000",
+    "name": "Urology",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "046",
+    "sub": "001",
+    "name": "Urology - Urogynaecology",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "046",
+    "sub": "200",
+    "name": "Urology - Locum (Namibia Only)",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "046",
+    "sub": "999",
+    "name": "Urology - Multi Sub-Discipline",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "047",
+    "sub": "000",
+    "name": "Drug & Alcohol Rehab - (Department of Health)",
+    "category": "Facilities"
+  },
+  {
+    "code": "047",
+    "sub": "001",
+    "name": "Drug & Alcohol Rehab - (Welfare)",
+    "category": "Facilities"
+  },
+  {
+    "code": "047",
+    "sub": "999",
+    "name": "Drug & Alcohol Rehab - Multi Sub-Discipline",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "000",
+    "name": "Sub-Acute Facilities",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "001",
+    "name": "Sub-Acute Facilities - General Care",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "002",
+    "name": "Sub-Acute Facilities - Psychiatric",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "003",
+    "name": "Sub-Acute Facilities - Physical Rehab",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "004",
+    "name": "Sub-Acute Facilities - All Services",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "005",
+    "name": "Sub-Acute Facilities - Post Natal Unit",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "006",
+    "name": "Sub-Acute Facilities - Psychiatric/Post Natal",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "007",
+    "name": "Sub-Acute Facilities - Rehab/Post Natal",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "008",
+    "name": "Sub-Acute Facilities - Specialised Psychiatric Unit Only",
+    "category": "Facilities"
+  },
+  {
+    "code": "049",
+    "sub": "999",
+    "name": "Sub-Acute Facilities - Multi Sub-Discipline",
+    "category": "Facilities"
+  },
+  {
+    "code": "050",
+    "sub": "000",
+    "name": "Group Practice - Group Practice",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "050",
+    "sub": "001",
+    "name": "Group Practice - Mental Health / Psychological Disorders",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "050",
+    "sub": "002",
+    "name": "Group Practice - Physical Rehabilitation",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "050",
+    "sub": "009",
+    "name": "Group Practice - Primary Care",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "050",
+    "sub": "999",
+    "name": "Group Practice - Multi Sub-Discipline",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "052",
+    "sub": "000",
+    "name": "Pathology Independent Practice Specialist",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "001",
+    "name": "Pathology Independent Practice Specialist - Anatomy",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "002",
+    "name": "Pathology Independent Practice Specialist - Chemical",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "003",
+    "name": "Pathology Independent Practice Specialist - Clinical",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "004",
+    "name": "Pathology Independent Practice Specialist - Forensic",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "005",
+    "name": "Pathology Independent Practice Specialist - Clinical Haematology",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "006",
+    "name": "Pathology Independent Practice Specialist - Medical Genetics",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "007",
+    "name": "Pathology Independent Practice Specialist - Microbiology",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "008",
+    "name": "Pathology Independent Practice Specialist - Infectious Diseases",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "009",
+    "name": "Pathology Independent Practice Specialist - Virology",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "052",
+    "sub": "999",
+    "name": "Pathology Independent Practice Specialist - Multi Sub-Discipline",
+    "category": "Pathology & Laboratory"
+  },
+  {
+    "code": "054",
+    "sub": "000",
+    "name": "General Dental Practice",
+    "category": "Dental"
+  },
+  {
+    "code": "054",
+    "sub": "200",
+    "name": "General Dental Practice - Locum (Namibia Only)",
+    "category": "Dental"
+  },
+  {
+    "code": "054",
+    "sub": "300",
+    "name": "General Dental Practice - Limited Private Practice (Namibia Only)",
+    "category": "Dental"
+  },
+  {
+    "code": "054",
+    "sub": "400",
+    "name": "General Dental Practice - Consulting Room: Dentist (No X-ray)",
+    "category": "Dental"
+  },
+  {
+    "code": "054",
+    "sub": "999",
+    "name": "General Dental Practice - Multi Sub-Discipline",
+    "category": "Dental"
+  },
+  {
+    "code": "055",
+    "sub": "000",
+    "name": "Mental Health Institutions",
+    "category": "Mental Health"
+  },
+  {
+    "code": "055",
+    "sub": "001",
+    "name": "Mental Health Institutions - Day Centre",
+    "category": "Mental Health"
+  },
+  {
+    "code": "055",
+    "sub": "999",
+    "name": "Mental Health Institutions - Multi Sub-Discipline",
+    "category": "Mental Health"
+  },
+  {
+    "code": "056",
+    "sub": "000",
+    "name": "Provincial Hospitals",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "001",
+    "name": "Provincial Hospitals - District Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "002",
+    "name": "Provincial Hospitals - Regional Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "003",
+    "name": "Provincial Hospitals - Tertiary/Academic Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "004",
+    "name": "Provincial Hospitals - DOH Oral healthcare Centre",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "009",
+    "name": "Provincial Hospitals - Primary Care",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "010",
+    "name": "Provincial Hospitals - DOH Orthotics & Prosthetics Centre",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "011",
+    "name": "Provincial Hospitals - Central Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "012",
+    "name": "Provincial Hospitals - Specialised Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "013",
+    "name": "Provincial Hospitals - Small District Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "014",
+    "name": "Provincial Hospitals - Medium District Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "015",
+    "name": "Provincial Hospitals - Large District Hospital",
+    "category": "Hospitals"
+  },
+  {
+    "code": "056",
+    "sub": "999",
+    "name": "Provincial Hospitals - Multi Sub-Discipline",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "000",
+    "name": "Private Hospitals ('A' - Status)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "001",
+    "name": "Private Hospitals ('A' - Status) - +ICU +Theatre Less than 100 beds",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "002",
+    "name": "Private Hospitals ('A' - Status) - -ICU +Theatre",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "003",
+    "name": "Private Hospitals ('A' - Status) - +ICU -Theatre",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "004",
+    "name": "Private Hospitals ('A' - Status) - -ICU -Theatre",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "005",
+    "name": "Private Hospitals ('A' - Status) - +Theatre Maternity only",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "006",
+    "name": "Private Hospitals ('A' - Status) - -Theatre Maternity only",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "007",
+    "name": "Private Hospitals ('A' - Status) - Namibian Rural Health Centres",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "008",
+    "name": "Private Hospitals ('A' - Status) - -ICU +Theatre (Lesotho)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "100",
+    "name": "Private Hospitals ('A' - Status) - Mine Hospitals",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "200",
+    "name": "Private Hospitals ('A' - Status) - State subsidised",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "300",
+    "name": "Private Hospitals ('A' - Status) - Acute Oncology",
+    "category": "Hospitals"
+  },
+  {
+    "code": "057",
+    "sub": "999",
+    "name": "Private Hospitals ('A' - Status) - Multi Sub-Discipline",
+    "category": "Hospitals"
+  },
+  {
+    "code": "058",
+    "sub": "000",
+    "name": "Private Hospitals ('B' - Status)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "059",
+    "sub": "000",
+    "name": "Private Rehab Hospital (Acute)",
+    "category": "Facilities"
+  },
+  {
+    "code": "060",
+    "sub": "000",
+    "name": "Pharmacies",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "060",
+    "sub": "001",
+    "name": "Pharmacies - Consultant Pharmacy",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "060",
+    "sub": "002",
+    "name": "Pharmacies - Responsible Pharmacist (Namibia Only)",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "060",
+    "sub": "999",
+    "name": "Pharmacies - Multi Sub-Discipline",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "061",
+    "sub": "000",
+    "name": "Pharmacotherapist",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "061",
+    "sub": "999",
+    "name": "Pharmacotherapist - Multi Sub-Discipline",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "062",
+    "sub": "000",
+    "name": "Maxillo-facial and Oral Surgery",
+    "category": "Dental"
+  },
+  {
+    "code": "062",
+    "sub": "999",
+    "name": "Maxillo-facial and Oral Surgery - Multi Sub-Discipline",
+    "category": "Dental"
+  },
+  {
+    "code": "063",
+    "sub": "000",
+    "name": "Primary Care Drug Therapist",
+    "category": "General Practice"
+  },
+  {
+    "code": "064",
+    "sub": "000",
+    "name": "Orthodontics",
+    "category": "Dental"
+  },
+  {
+    "code": "066",
+    "sub": "000",
+    "name": "Occupational Therapy",
+    "category": "Rehabilitation"
+  },
+  {
+    "code": "066",
+    "sub": "200",
+    "name": "Occupational Therapy - Locum (Namibia Only)",
+    "category": "Rehabilitation"
+  },
+  {
+    "code": "067",
+    "sub": "000",
+    "name": "Arts Therapy",
+    "category": "Allied Health"
+  },
+  {
+    "code": "067",
+    "sub": "001",
+    "name": "Arts Therapy - Music Therapists",
+    "category": "Allied Health"
+  },
+  {
+    "code": "067",
+    "sub": "002",
+    "name": "Arts Therapy - Dance Movement Therapists",
+    "category": "Allied Health"
+  },
+  {
+    "code": "067",
+    "sub": "003",
+    "name": "Arts Therapy - Drama Therapists",
+    "category": "Allied Health"
+  },
+  {
+    "code": "067",
+    "sub": "999",
+    "name": "Arts Therapy - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "068",
+    "sub": "000",
+    "name": "Podiatry",
+    "category": "Allied Health"
+  },
+  {
+    "code": "068",
+    "sub": "999",
+    "name": "Podiatry - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "069",
+    "sub": "000",
+    "name": "Medical Scientist - Clinical Biochemist",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "069",
+    "sub": "001",
+    "name": "Medical Scientist - Genetic Councillor",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "069",
+    "sub": "002",
+    "name": "Medical Scientist - Medical Biological Scientist",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "069",
+    "sub": "003",
+    "name": "Medical Scientist - Medical Physicist",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "069",
+    "sub": "999",
+    "name": "Medical Scientist - Multi Sub-Discipline",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "070",
+    "sub": "000",
+    "name": "Optometrists",
+    "category": "Allied Health"
+  },
+  {
+    "code": "070",
+    "sub": "001",
+    "name": "Optometrists - Visual Science & Ocular Pathology & Dispensing of Spectacles",
+    "category": "Allied Health"
+  },
+  {
+    "code": "070",
+    "sub": "002",
+    "name": "Optometrists - Ocular Therapeutics",
+    "category": "Allied Health"
+  },
+  {
+    "code": "070",
+    "sub": "999",
+    "name": "Optometrists - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "071",
+    "sub": "000",
+    "name": "Optical dispensers",
+    "category": "Allied Health"
+  },
+  {
+    "code": "071",
+    "sub": "001",
+    "name": "Optical dispensers - No limitations",
+    "category": "Allied Health"
+  },
+  {
+    "code": "071",
+    "sub": "999",
+    "name": "Optical dispensers - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "072",
+    "sub": "000",
+    "name": "Physiotherapists",
+    "category": "Rehabilitation"
+  },
+  {
+    "code": "072",
+    "sub": "200",
+    "name": "Physiotherapists - Locum (Namibia Only)",
+    "category": "Rehabilitation"
+  },
+  {
+    "code": "075",
+    "sub": "000",
+    "name": "Clinical technology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "001",
+    "name": "Clinical technology - Cardio-Vascular Perfusion",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "002",
+    "name": "Clinical technology - Pulmonology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "003",
+    "name": "Clinical technology - Nephrology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "004",
+    "name": "Clinical technology - Reproductive biology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "006",
+    "name": "Clinical technology - Neurophysiology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "007",
+    "name": "Clinical technology - Critical Care",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "008",
+    "name": "Clinical technology - Cardiology",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "300",
+    "name": "Clinical technology - Limited Private Practice (Namibia Only)",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "075",
+    "sub": "999",
+    "name": "Clinical technology - Multi Sub-Discipline",
+    "category": "Clinical Technology"
+  },
+  {
+    "code": "076",
+    "sub": "000",
+    "name": "Unattached Operating Theatres",
+    "category": "Facilities"
+  },
+  {
+    "code": "077",
+    "sub": "000",
+    "name": "Approved Day Clinics",
+    "category": "Facilities"
+  },
+  {
+    "code": "077",
+    "sub": "001",
+    "name": "Approved Day Clinics - Day Centre",
+    "category": "Facilities"
+  },
+  {
+    "code": "077",
+    "sub": "999",
+    "name": "Approved Day Clinics - Multi Sub-Discipline",
+    "category": "Facilities"
+  },
+  {
+    "code": "078",
+    "sub": "000",
+    "name": "Blood Transfusions and Related Services",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "078",
+    "sub": "999",
+    "name": "Blood Transfusions and Related Services - Multi Sub-Discipline",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "079",
+    "sub": "000",
+    "name": "Hospices",
+    "category": "Facilities"
+  },
+  {
+    "code": "079",
+    "sub": "001",
+    "name": "Hospices - SA Cancer Associations",
+    "category": "Facilities"
+  },
+  {
+    "code": "079",
+    "sub": "999",
+    "name": "Hospices - Multi Sub-Discipline",
+    "category": "Facilities"
+  },
+  {
+    "code": "080",
+    "sub": "000",
+    "name": "Nursing Agencies/Home Care Services",
+    "category": "Nursing"
+  },
+  {
+    "code": "081",
+    "sub": "000",
+    "name": "Registered Counsellors",
+    "category": "Mental Health"
+  },
+  {
+    "code": "082",
+    "sub": "000",
+    "name": "Speech therapy and Audiology",
+    "category": "Allied Health"
+  },
+  {
+    "code": "082",
+    "sub": "001",
+    "name": "Speech therapy and Audiology - Speech Therapy Only",
+    "category": "Allied Health"
+  },
+  {
+    "code": "082",
+    "sub": "002",
+    "name": "Speech therapy and Audiology - Audiology Only",
+    "category": "Allied Health"
+  },
+  {
+    "code": "082",
+    "sub": "999",
+    "name": "Speech therapy and Audiology - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "083",
+    "sub": "000",
+    "name": "Hearing Aid Acoustician",
+    "category": "Allied Health"
+  },
+  {
+    "code": "084",
+    "sub": "000",
+    "name": "Dieticians",
+    "category": "Allied Health"
+  },
+  {
+    "code": "084",
+    "sub": "200",
+    "name": "Dieticians - Locum (Namibia Only)",
+    "category": "Allied Health"
+  },
+  {
+    "code": "085",
+    "sub": "000",
+    "name": "Psychometry",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "000",
+    "name": "Psychologists",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "001",
+    "name": "Psychologists - Clinical",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "002",
+    "name": "Psychologists - Counselling",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "003",
+    "name": "Psychologists - Educational",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "004",
+    "name": "Psychologists - Industrial",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "005",
+    "name": "Psychologists - Neuropsychologists",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "200",
+    "name": "Psychologists - Locum (Namibia Only)",
+    "category": "Mental Health"
+  },
+  {
+    "code": "086",
+    "sub": "999",
+    "name": "Psychologists - Multi Sub-Discipline",
+    "category": "Mental Health"
+  },
+  {
+    "code": "087",
+    "sub": "000",
+    "name": "Orthotists & Prosthetists",
+    "category": "Allied Health"
+  },
+  {
+    "code": "087",
+    "sub": "999",
+    "name": "Orthotists & Prosthetists - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "088",
+    "sub": "000",
+    "name": "Registered nurses",
+    "category": "Nursing"
+  },
+  {
+    "code": "088",
+    "sub": "001",
+    "name": "Registered nurses - Midwife only",
+    "category": "Nursing"
+  },
+  {
+    "code": "088",
+    "sub": "002",
+    "name": "Registered nurses - Psychiatric only",
+    "category": "Nursing"
+  },
+  {
+    "code": "088",
+    "sub": "009",
+    "name": "Registered nurses - Primary Care",
+    "category": "Nursing"
+  },
+  {
+    "code": "088",
+    "sub": "200",
+    "name": "Registered nurses - Locum (Namibia Only)",
+    "category": "Nursing"
+  },
+  {
+    "code": "088",
+    "sub": "999",
+    "name": "Registered nurses - Multi Sub-Discipline",
+    "category": "Nursing"
+  },
+  {
+    "code": "089",
+    "sub": "000",
+    "name": "Social workers",
+    "category": "Mental Health"
+  },
+  {
+    "code": "089",
+    "sub": "999",
+    "name": "Social workers - Multi Sub-Discipline",
+    "category": "Mental Health"
+  },
+  {
+    "code": "090",
+    "sub": "000",
+    "name": "Clinical services",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "001",
+    "name": "Clinical services - Oxygen Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "002",
+    "name": "Clinical services - Wheelchairs Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "003",
+    "name": "Clinical services - Ear & Voice Prosthetic Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "004",
+    "name": "Clinical services - Eye Prosthetic Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "005",
+    "name": "Clinical services - Breast Prosthetic Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "006",
+    "name": "Clinical services - Cardiac Prosthetic Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "007",
+    "name": "Clinical services - Stomal/appliances Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "008",
+    "name": "Clinical services - Medical General Supplier",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "009",
+    "name": "Clinical services - FAMSA (family and marriage counselling)",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "010",
+    "name": "Clinical services - Employer Primary Care Facilities (NAMIBIA Only)",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "011",
+    "name": "Clinical services - Oncology units (not owned by hospital)",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "012",
+    "name": "Clinical services - Namibia Clinics",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "013",
+    "name": "Clinical services - Diabetes Appliances",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "014",
+    "name": "Clinical services - Compression Bandaging & Bone Healing System",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "015",
+    "name": "Clinical services - Parenteral Nutrition (TPN) - homecare",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "016",
+    "name": "Clinical Services - Orthopaedic prosthetic supplier (ZIMBABWE Only)",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "017",
+    "name": "Clinical services - Cranio Maxillofacial (CMF) Medical Devices",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "090",
+    "sub": "999",
+    "name": "Clinical services - Multi Sub-Discipline",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "091",
+    "sub": "000",
+    "name": "Biokinetics",
+    "category": "Rehabilitation"
+  },
+  {
+    "code": "092",
+    "sub": "000",
+    "name": "Periodontics",
+    "category": "Dental"
+  },
+  {
+    "code": "093",
+    "sub": "000",
+    "name": "Dental Technician",
+    "category": "Dental"
+  },
+  {
+    "code": "094",
+    "sub": "000",
+    "name": "Prosthodontic",
+    "category": "Dental"
+  },
+  {
+    "code": "095",
+    "sub": "000",
+    "name": "Dental therapy",
+    "category": "Dental"
+  },
+  {
+    "code": "096",
+    "sub": "000",
+    "name": "Community dentistry",
+    "category": "Dental"
+  },
+  {
+    "code": "097",
+    "sub": "000",
+    "name": "Independent Practice Specialist Public Health Medicine",
+    "category": "General Practice"
+  },
+  {
+    "code": "098",
+    "sub": "000",
+    "name": "Oral pathology",
+    "category": "Dental"
+  },
+  {
+    "code": "099",
+    "sub": "200",
+    "name": "Psychological Counsellors - Namibian Practitioners Only - Locum (Namibia Only)",
+    "category": "International"
+  },
+  {
+    "code": "101",
+    "sub": "000",
+    "name": "Naturopathy",
+    "category": "Allied Health"
+  },
+  {
+    "code": "102",
+    "sub": "000",
+    "name": "Osteopathy",
+    "category": "Allied Health"
+  },
+  {
+    "code": "103",
+    "sub": "000",
+    "name": "Phytotherapy",
+    "category": "Allied Health"
+  },
+  {
+    "code": "104",
+    "sub": "000",
+    "name": "Ayurveda - Ayurveda Practitioner",
+    "category": "Allied Health"
+  },
+  {
+    "code": "104",
+    "sub": "001",
+    "name": "Ayurveda - Primary Healthcare Advisor",
+    "category": "Allied Health"
+  },
+  {
+    "code": "104",
+    "sub": "002",
+    "name": "Ayurveda - Yoga Therapist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "104",
+    "sub": "999",
+    "name": "Ayurveda - Multi Sub-Discipline",
+    "category": "Allied Health"
+  },
+  {
+    "code": "105",
+    "sub": "000",
+    "name": "Acupuncturist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "106",
+    "sub": "000",
+    "name": "Therapeutic Aromatherapist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "107",
+    "sub": "000",
+    "name": "Therapeutic Massage Therapist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "108",
+    "sub": "000",
+    "name": "Therapeutic Reflexologist",
+    "category": "Allied Health"
+  },
+  {
+    "code": "109",
+    "sub": "000",
+    "name": "Unani-Tibb",
+    "category": "Allied Health"
+  },
+  {
+    "code": "110",
+    "sub": "000",
+    "name": "Clinical Pharmacokineticist",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "111",
+    "sub": "000",
+    "name": "Radiopharmacist",
+    "category": "Pharmacy"
+  },
+  {
+    "code": "112",
+    "sub": "000",
+    "name": "Independent Practice Specialist Clinical Pharmacology",
+    "category": "General Practice"
+  },
+  {
+    "code": "113",
+    "sub": "000",
+    "name": "Oral Hygiene",
+    "category": "Dental"
+  },
+  {
+    "code": "114",
+    "sub": "000",
+    "name": "Paediatric Surgery Independent Practice Specialist",
+    "category": "Surgical Specialists"
+  },
+  {
+    "code": "115",
+    "sub": "000",
+    "name": "Medical Genetics",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "116",
+    "sub": "001",
+    "name": "Basic Life Support Staff - Basic Ambulance Assistant",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "117",
+    "sub": "001",
+    "name": "Intermediate Life Support Staff - Ambulance Emergency Assistant",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "117",
+    "sub": "002",
+    "name": "Intermediate Life Support Staff - ECT",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "117",
+    "sub": "999",
+    "name": "Intermediate Life Support Staff - Multi Sub-Discipline",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "118",
+    "sub": "001",
+    "name": "Advanced Life Support Staff - Paramedic",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "118",
+    "sub": "002",
+    "name": "Advanced Life Support Staff - ECP",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "118",
+    "sub": "999",
+    "name": "Advanced Life Support Staff - Multi Sub-Discipline",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "119",
+    "sub": "001",
+    "name": "Emergency Care Technicians - Namibia Only",
+    "category": "Emergency Services"
+  },
+  {
+    "code": "120",
+    "sub": "000",
+    "name": "Stand-Alone Chemotherapy Unit - Namibia Only",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "121",
+    "sub": "000",
+    "name": "Covid-19 Vaccine Site",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "122",
+    "sub": "000",
+    "name": "OHS Primary Care Facility",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "123",
+    "sub": "000",
+    "name": "Independent Practice Specialist Sports and Exercise Medicine",
+    "category": "General Practice"
+  },
+  {
+    "code": "123",
+    "sub": "999",
+    "name": "Independent Practice Specialist Sports and Exercise Medicine - Multi Sub-Discipline",
+    "category": "General Practice"
+  },
+  {
+    "code": "124",
+    "sub": "000",
+    "name": "Independent Practice Specialist Community Health",
+    "category": "General Practice"
+  },
+  {
+    "code": "124",
+    "sub": "001",
+    "name": "Independent Practice Specialist Community Health - Occupational Health",
+    "category": "General Practice"
+  },
+  {
+    "code": "125",
+    "sub": "000",
+    "name": "(HMO) Health Maintenance Organisation",
+    "category": "Facilities"
+  },
+  {
+    "code": "126",
+    "sub": "000",
+    "name": "Medical Laboratory Scientist",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "126",
+    "sub": "999",
+    "name": "Medical Laboratory Scientist - Multi Sub-Discipline",
+    "category": "Medical Scientists"
+  },
+  {
+    "code": "127",
+    "sub": "000",
+    "name": "Anesthetist Technician - (Swaziland Practitioners Only)",
+    "category": "International"
+  },
+  {
+    "code": "127",
+    "sub": "001",
+    "name": "Anesthetist Technician - (Lesotho Practitioners Only)",
+    "category": "International"
+  },
+  {
+    "code": "200",
+    "sub": "000",
+    "name": "Dental Clinic - (Zimbabwe)",
+    "category": "Dental"
+  },
+  {
+    "code": "201",
+    "sub": "000",
+    "name": "Family Planning - (Zimbabwe)",
+    "category": "Clinical Services"
+  },
+  {
+    "code": "202",
+    "sub": "000",
+    "name": "Government Hospital - (Zimbabwe)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "203",
+    "sub": "000",
+    "name": "Industrial/Commercial/Private Clinics - (Zimbabwe)",
+    "category": "Facilities"
+  },
+  {
+    "code": "204",
+    "sub": "000",
+    "name": "Infectious Disease Hospital - (Zimbabwe)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "207",
+    "sub": "000",
+    "name": "Mission Hospitals - (Zimbabwe)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "208",
+    "sub": "000",
+    "name": "Municipal/ Rural Council Clinics - (Zimbabwe)",
+    "category": "Hospitals"
+  },
+  {
+    "code": "209",
+    "sub": "000",
+    "name": "Private Physiotherapy Centres - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "210",
+    "sub": "000",
+    "name": "State Registered Nurses - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "211",
+    "sub": "000",
+    "name": "Zimbabwe Red Cross Society - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "212",
+    "sub": "000",
+    "name": "Government Ancillary Services - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "213",
+    "sub": "000",
+    "name": "Operating Theatre Nurses - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "214",
+    "sub": "000",
+    "name": "Nurse Anaesthetists - (Zimbabwe)",
+    "category": "International"
+  },
+  {
+    "code": "215",
+    "sub": "000",
+    "name": "Interventional Radiologists - (Zimbabwe)",
+    "category": "International"
+  }
 ]

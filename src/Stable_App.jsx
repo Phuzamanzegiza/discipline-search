@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useState, useMemo } from 'react'
 import {
   Search, X, List, LayoutGrid, Activity, Stethoscope, Building2, Cog,
   HeartPulse, Siren, UserRound, Globe, Microscope,
@@ -31,27 +31,6 @@ const catCfg = {
   'Surgical Specialists':   { a: '#e11d48', bg: '#fff1f2', p: '#ffe4e6', t: '#9f1239', Icon: Scissors },
 }
 
-/* ── Pre-computed search index ────────────────────────────────── */
-const searchIndex = disciplines.map(d => {
-  const codeFull = `${d.code} ${d.sub}`        // "014 001"
-  const codeJoined = `${d.code}${d.sub}`       // "014001"
-  const codeNumeric = String(Number(d.code))    // "14" – allows "14" to match "014"
-  const subNumeric = String(Number(d.sub))
-  return {
-    ...d,
-    _searchText: [
-      d.name.toLowerCase(),
-      d.category.toLowerCase(),
-      codeFull,
-      codeJoined,
-      d.code,
-      d.sub,
-      codeNumeric,
-      subNumeric,
-    ].join('|'),
-  }
-})
-
 function CatIcon({ category, size = 16 }) {
   const cfg = catCfg[category]
   if (!cfg) return <ClipboardList size={size} />
@@ -59,51 +38,27 @@ function CatIcon({ category, size = 16 }) {
   return <Icon size={size} strokeWidth={2} />
 }
 
-/* ── Highlight matched text ───────────────────────────────────── */
-function Highlight({ text, query }) {
-  if (!query) return text
-  const idx = text.toLowerCase().indexOf(query.toLowerCase())
-  if (idx === -1) return text
-  return (
-    <>
-      {text.slice(0, idx)}
-      <mark className="hl">{text.slice(idx, idx + query.length)}</mark>
-      {text.slice(idx + query.length)}
-    </>
-  )
-}
-
 function App() {
   const [search, setSearch] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [viewMode, setViewMode] = useState('list')
 
-  /* ── Tokenised multi-word search ───────────────────────────── */
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim()
-    const tokens = q ? q.split(/\s+/).filter(Boolean) : []
-
-    return searchIndex.filter(d => {
+    return disciplines.filter(d => {
       const matchesCategory = selectedCategory === 'All' || d.category === selectedCategory
-      if (!matchesCategory) return false
-      if (tokens.length === 0) return true
-      // every token must appear somewhere in the combined search text
-      return tokens.every(tok => d._searchText.includes(tok))
+      if (!q) return matchesCategory
+      const fullCode = `${d.code} ${d.sub}`
+      const codeNoSpace = `${d.code}${d.sub}`
+      return matchesCategory && (
+        d.name.toLowerCase().includes(q) ||
+        d.category.toLowerCase().includes(q) ||
+        fullCode.includes(q) ||
+        codeNoSpace.includes(q) ||
+        d.code.includes(q)
+      )
     })
   }, [search, selectedCategory])
-
-  /* ── Per-category counts (for pills) ───────────────────────── */
-  const catCounts = useMemo(() => {
-    const q = search.toLowerCase().trim()
-    const tokens = q ? q.split(/\s+/).filter(Boolean) : []
-    const counts = {}
-    searchIndex.forEach(d => {
-      if (tokens.length === 0 || tokens.every(tok => d._searchText.includes(tok))) {
-        counts[d.category] = (counts[d.category] || 0) + 1
-      }
-    })
-    return counts
-  }, [search])
 
   const grouped = useMemo(() => {
     const groups = {}
@@ -119,8 +74,6 @@ function App() {
     categories: categories.length,
     filtered: filtered.length,
   }), [filtered])
-
-  const handleClear = useCallback(() => { setSearch(''); setSelectedCategory('All') }, [])
 
   return (
     <div className="app">
@@ -159,7 +112,7 @@ function App() {
             <Search className="search-icon" size={20} strokeWidth={2.5} />
             <input
               type="text"
-              placeholder="Search by discipline name, code, or category…"
+              placeholder="Search by discipline name, code, or category..."
               value={search}
               onChange={e => setSearch(e.target.value)}
               className="search-input"
@@ -183,18 +136,15 @@ function App() {
               {categories.map(cat => {
                 const c = catCfg[cat]
                 const isActive = selectedCategory === cat
-                const count = catCounts[cat] || 0
                 return (
                   <button
                     key={cat}
-                    className={`pill ${isActive ? 'pill-active' : ''} ${count === 0 ? 'pill-empty' : ''}`}
+                    className={`pill ${isActive ? 'pill-active' : ''}`}
                     onClick={() => setSelectedCategory(cat)}
                     style={isActive ? { background: c.a, color: 'white', boxShadow: `0 2px 12px ${c.a}30` } : { color: c.t }}
-                    disabled={count === 0}
                   >
                     <CatIcon category={cat} size={13} />
                     {cat}
-                    {search && <span className="pill-count">{count}</span>}
                   </button>
                 )
               })}
@@ -228,8 +178,7 @@ function App() {
               <Search size={36} strokeWidth={1.5} />
             </div>
             <h3>No disciplines found</h3>
-            <p>Try a different search term or clear the filters</p>
-            <button className="clear-btn" onClick={handleClear}>Clear all filters</button>
+            <p>Try a different search term or clear the category filter</p>
           </div>
         ) : viewMode === 'list' ? (
           <div className="list-view">
@@ -255,9 +204,7 @@ function App() {
                           <span className="code-sep">&middot;</span>
                           <span className="code-sub">{d.sub}</span>
                         </div>
-                        <div className="item-name">
-                          <Highlight text={d.name} query={search.trim()} />
-                        </div>
+                        <div className="item-name">{d.name}</div>
                         <span className="item-badge" style={{ color: c.t, background: c.p }}>
                           <CatIcon category={category} size={11} />
                           {category}
@@ -285,9 +232,7 @@ function App() {
                     </div>
                     <span className="card-code">{d.code} &middot; {d.sub}</span>
                   </div>
-                  <div className="card-name">
-                    <Highlight text={d.name} query={search.trim()} />
-                  </div>
+                  <div className="card-name">{d.name}</div>
                   <div className="card-category" style={{ color: c.t, display: 'flex', alignItems: 'center', gap: 5 }}>
                     <CatIcon category={d.category} size={12} />
                     {d.category}
