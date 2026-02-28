@@ -10,7 +10,7 @@ Built with **React + Vite** and deployed to **GitHub Pages**.
 - Filter by 18 discipline categories
 - Toggle between list and grid views
 - Fully responsive for mobile and desktop
-- 115+ discipline codes 
+- 378 active discipline codes 
 
 ## Data Source
 
