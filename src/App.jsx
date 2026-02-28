@@ -136,7 +136,7 @@ function App() {
             </div>
             <div>
               <h1 className="logo-title">Discipline Code Search</h1>
-              <p className="logo-sub">SA Medical Scheme Provider Disciplines &middot; BI Solutions Reference</p>
+              <p className="logo-sub">SA Medical Scheme Provider Disciplines &middot; GEMS</p>
             </div>
           </div>
           <div className="header-stats">
@@ -301,7 +301,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>Medical Scheme Discipline Codes &middot; Source: <a href="https://www.bisolutions.co.za/reports/disciplines.php" target="_blank" rel="noopener noreferrer">BI Solutions</a></p>
+        <p>Medical Scheme Discipline Codes &middot; Source: <a href="https://www.gems.gov.za/" target="_blank" rel="noopener noreferrer">GEMS</a></p>
         <p className="footer-sub">Built for GEMS Medical Advisory Services</p>
       </footer>
     </div>
