@@ -10,11 +10,11 @@ Built with **React + Vite** and deployed to **GitHub Pages**.
 - Filter by 18 discipline categories
 - Toggle between list and grid views
 - Fully responsive for mobile and desktop
-- 115+ discipline codes from BI Solutions
+- 115+ discipline codes 
 
 ## Data Source
 
-[BI Solutions - Discipline List](https://www.bisolutions.co.za/reports/disciplines.php)
+GEMS
 
 ## Development
 
